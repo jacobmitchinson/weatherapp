@@ -14,6 +14,8 @@
 		A27FFDE61D9E687A00A7F58B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27FFDE41D9E687A00A7F58B /* LaunchScreen.storyboard */; };
 		A27FFDF11D9E687B00A7F58B /* WeatherAPP2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27FFDF01D9E687B00A7F58B /* WeatherAPP2Tests.swift */; };
 		A27FFDFC1D9E687B00A7F58B /* WeatherAPP2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27FFDFB1D9E687B00A7F58B /* WeatherAPP2UITests.swift */; };
+		A27FFE0A1D9E69E500A7F58B /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27FFE091D9E69E500A7F58B /* WeatherAPI.swift */; };
+		A27FFE0C1D9E741D00A7F58B /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27FFE0B1D9E741D00A7F58B /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A27FFDF71D9E687B00A7F58B /* WeatherAPP2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAPP2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27FFDFB1D9E687B00A7F58B /* WeatherAPP2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPP2UITests.swift; sourceTree = "<group>"; };
 		A27FFDFD1D9E687B00A7F58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27FFE091D9E69E500A7F58B /* WeatherAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
+		A27FFE0B1D9E741D00A7F58B /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				A27FFDE21D9E687A00A7F58B /* Assets.xcassets */,
 				A27FFDE41D9E687A00A7F58B /* LaunchScreen.storyboard */,
 				A27FFDE71D9E687A00A7F58B /* Info.plist */,
+				A27FFE091D9E69E500A7F58B /* WeatherAPI.swift */,
+				A27FFE0B1D9E741D00A7F58B /* Weather.swift */,
 			);
 			path = WeatherAPP2;
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A27FFE0C1D9E741D00A7F58B /* Weather.swift in Sources */,
+				A27FFE0A1D9E69E500A7F58B /* WeatherAPI.swift in Sources */,
 				A27FFDDE1D9E687A00A7F58B /* ViewController.swift in Sources */,
 				A27FFDDC1D9E687A00A7F58B /* AppDelegate.swift in Sources */,
 			);
